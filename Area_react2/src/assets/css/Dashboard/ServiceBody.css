@@ -1,0 +1,50 @@
+.service-title {
+    padding-top: 40px;
+    text-align: center;
+}
+
+.service-row {
+    width: 100%;
+    display: inline-flex;
+    position: relative;
+}
+
+.add-button {
+    background-color: #11cdef;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+
+    position: relative;
+    z-index: 1;
+
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+    margin-bottom: 20px;
+}
+
+.add-button:hover{
+    background-color: #11cdef;
+    opacity: 70%;
+}
+
+.service-action {
+    padding-top: 10px;
+    text-align: center;
+    width: 50%;
+}
+
+.service-reaction {
+    padding-top: 10px;
+    text-align: center;
+    width: 50%;
+}
