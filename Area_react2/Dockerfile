@@ -46,7 +46,8 @@ RUN rm /usr/src/app/android/local.properties ; exit 0
 WORKDIR /usr/src/app/android/
 #RUN ls android/app/build/outputs/apk/debug/
 RUN ./gradlew clean
-CMD ["./gradlew", "assembleRelease"]
+# CMD ["./gradlew", "assembleRelease"]
+RUN ./gradlew assembleRelease
 RUN ls
 RUN pwd
 RUN ls
