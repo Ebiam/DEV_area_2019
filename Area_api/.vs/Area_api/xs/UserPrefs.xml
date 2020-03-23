@@ -1,0 +1,52 @@
+﻿<Properties StartupConfiguration="{DD58D9C2-0895-4F26-B9D0-2B4FCB964EF0}|Default">
+  <MonoDevelop.Ide.ItemProperties.Area__api PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Service/TimedHostedService.cs">
+    <Files>
+      <File FileName="Data/ApplicationDbContext.cs" Line="1" Column="1" />
+      <File FileName="Models/Trigger.cs" />
+      <File FileName="Models/RequestModel/AreaModel.cs" />
+      <File FileName="Controllers/AreaController.cs" />
+      <File FileName="Controllers/UserController.cs" />
+      <File FileName="Models/Service.cs" />
+      <File FileName="Controllers/ServiceController.cs" />
+      <File FileName="appsettings.json" />
+      <File FileName="Models/RequestModel/UserApiModel.cs" />
+      <File FileName="Controllers/HomeController.cs" />
+      <File FileName="Models/Area.cs" />
+      <File FileName="Service/BackgroundTaskQueue.cs" Line="1" Column="1" />
+      <File FileName="Startup.cs" Line="42" Column="26" />
+      <File FileName="Service/TimedHostedService.cs" Line="532" Column="77" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Area_api" expanded="True">
+            <Node name="Area_api" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="FrameworkReferences" expanded="True" />
+                <Node name="PackageDependencies" expanded="True" />
+              </Node>
+              <Node name="Controllers" expanded="True" />
+              <Node name="Data" expanded="True" />
+              <Node name="Models" expanded="True">
+                <Node name="Links" expanded="True" />
+                <Node name="RequestModel" expanded="True" />
+                <Node name="ResponseApi" expanded="True" />
+              </Node>
+              <Node name="Properties" expanded="True" />
+              <Node name="Service" expanded="True">
+                <Node name="TimedHostedService.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
