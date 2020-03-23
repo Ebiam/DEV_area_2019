@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/enzo/Work/Tek3/APPDEV/lol/lol2/DEV_area_2019/Area_api/Area_api.csproj": {}
+    "/Users/enzo/Work/Tek3/APPDEV/lol/lol2/REPOAPP/lol/Area/Area_api/Area_api.csproj": {}
   },
   "projects": {
-    "/Users/enzo/Work/Tek3/APPDEV/lol/lol2/DEV_area_2019/Area_api/Area_api.csproj": {
+    "/Users/enzo/Work/Tek3/APPDEV/lol/lol2/REPOAPP/lol/Area/Area_api/Area_api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/enzo/Work/Tek3/APPDEV/lol/lol2/DEV_area_2019/Area_api/Area_api.csproj",
+        "projectUniqueName": "/Users/enzo/Work/Tek3/APPDEV/lol/lol2/REPOAPP/lol/Area/Area_api/Area_api.csproj",
         "projectName": "Area_api",
-        "projectPath": "/Users/enzo/Work/Tek3/APPDEV/lol/lol2/DEV_area_2019/Area_api/Area_api.csproj",
+        "projectPath": "/Users/enzo/Work/Tek3/APPDEV/lol/lol2/REPOAPP/lol/Area/Area_api/Area_api.csproj",
         "packagesPath": "/Users/enzo/.nuget/packages/",
-        "outputPath": "/Users/enzo/Work/Tek3/APPDEV/lol/lol2/DEV_area_2019/Area_api/obj/",
+        "outputPath": "/Users/enzo/Work/Tek3/APPDEV/lol/lol2/REPOAPP/lol/Area/Area_api/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/enzo/.nuget/NuGet/NuGet.Config"

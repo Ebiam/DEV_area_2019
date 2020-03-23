@@ -1,15 +1,15 @@
 version: '3'
 services:
-  Area_react2:
-    build: ./Area_react2/
+  client-mobile:
+    build: ./mobile/
     volumes:
-      - data-volume:/var/lib/mob:rw
+      - data-volume:usr/src/app/android/build/outputs/apk/release/
     ports:
        - "8002:8002"
   client-web:
     build: ./client-web/
     volumes:
-      - data-volume:/var/lib/web:ro
+      - data-volume:/usr/src/assets/
     ports:
        - "8081:8081"
   server:
