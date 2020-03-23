@@ -1,0 +1,33 @@
+.actions {
+    margin-top: 40px;
+    width: 100%;
+    position: relative;
+}
+
+.action-block {
+    background-color: white;
+    box-shadow: 0px 0px 24px 0px rgba(0, 0, 0, 0.75);
+    width: 40%;
+    margin: 0 auto;
+    border-radius: 12px;
+}
+
+.logo-action {
+    height: 3rem;
+}
+
+.action-text {
+    color: #8898aa !important;
+    font-size: 14px!important;
+    padding-top: 10px;
+}
+
+.text-uppercase {
+    text-transform: uppercase!important;
+}
+
+.select-option {
+    padding: 10px;
+    width: 70%;
+    margin: 0 auto;
+}
