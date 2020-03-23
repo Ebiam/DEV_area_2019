@@ -511,8 +511,8 @@ namespace Area_api.Services
                                                 {
                                                     _logger.LogInformation("Status code ok");
                                                     var jsonstr = await response.Content.ReadAsStringAsync()/*.ToString()*/;
-                                                    _logger.LogInformation("content {c}", jsonstr);
-                                                    _logger.LogInformation(jsonstr);
+                                                    //_logger.LogInformation("content {c}", jsonstr);
+                                                    //_logger.LogInformation(jsonstr);
                                                     //using var responseStream = await response.Content.ReadAsStreamAsync();
                                                     dynamic jObj = JsonConvert.DeserializeObject(jsonstr);
                                                     int size = 0;
@@ -526,24 +526,30 @@ namespace Area_api.Services
                                                     if (trigger.init == true)
                                                     {
                                                         trigger.Ivalue = size;
+                                                        trigger.init = false;
+                                                        _context.Triggers.Update(trigger);
+                                                        _context.SaveChanges();
                                                     }
                                                     else
                                                     {
-                                                        if (trigger.Ivalue < size)
+                                                        if (trigger.Ivalue > size)
                                                         {
+                                                            _logger.LogInformation("ACTION HAPPPEND MAN");
                                                             isaction = true;
                                                             trigger.Ivalue = size;
+                                                            _context.Triggers.Update(trigger);
+                                                            _context.SaveChanges();
                                                         }
-                                                        else
+                                                        else if (trigger.Ivalue != size)
                                                         {
                                                             trigger.Ivalue = size;
                                                             isaction = false;
+                                                            _context.Triggers.Update(trigger);
+                                                            _context.SaveChanges();
                                                         }
                                                     }
-                                                    trigger.init = false;
-                                                    _context.Triggers.Update(trigger);
-                                                    _context.SaveChanges();
-                                                    _logger.LogInformation("Action is {s} and value is {v}", isaction, size);
+                                                    
+                                                    _logger.LogInformation("Action OW is {s} and value is now {v}", isaction, size);
                                                     break;
                                                 }
                                                 else
